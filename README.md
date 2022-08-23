@@ -1,19 +1,17 @@
-# NATOO
-Network analysis tool
+#Introduction 
+
+We built this project as a part of final project submission for the CS307-system practicum course at IIT Mandi.It was a group project. 
+NATOO is a simple network analysis tool which have following features : 
+* Host discovery  -- Implemented by me
+* Port scanning -- Dhruv Pindawala
+* OS detection -- Pongthangamba
+* Packet sniffing -- Divyansh Vinayak, Akash Karnatak. 
+* ARP poisoning -- Atul Jain
 
 # Build instructions
 ```sh
 make -j4
 ```
-
-# Usage
-NATOO supports the following features:
-* Host discovery
-* Port scanning
-* OS detection
-* Packet sniffing
-* ARP poisoning
-
 ### Host discovery
 In order to scan for host in a subnet, run the following command,
 
@@ -58,3 +56,7 @@ $ ./natoo -A <gateway-ip> -i <interface> -m <mac-addr>
 # example
 # ./natoo -A 192.168.1.1 -i wlan0 -m aa:bb:cc:dd:ee:ff
 ```
+
+
+## DEMO(Youtube link)
+[![NATOO_DEMO](https://img.youtube.com/vi/VnPW55QBpJ4/0.jpg)](https://www.youtube.com/watch?v=VnPW55QBpJ4)
